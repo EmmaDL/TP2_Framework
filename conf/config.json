@@ -1,0 +1,27 @@
+{
+  "name": "schema project",
+  "csvOptions": {
+    "header": "false",
+    "inferSchema": "false",
+    "delimiter": ","
+  },
+  "fields":
+  [
+    {
+      "name": "amount",
+      "type": "Integer"
+    },
+    {
+      "name": "base_currency",
+      "type": "String"
+    },
+    {
+      "name": "currency",
+      "type": "String"
+    },
+    {
+      "name": "taux_de_change",
+      "type": "Double"
+    }
+  ]
+}
